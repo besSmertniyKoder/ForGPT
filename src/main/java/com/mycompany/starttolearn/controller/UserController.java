@@ -26,15 +26,7 @@ public class UserController {
     @Autowired
     private PetService petService;
 
-//    @GetMapping("/static")
-//    public String getHTML() {
-//        return "this is api page, hello there";
-//    }
-//
-//    @GetMapping("/myJaba")
-//    public String helloJaba() {
-//        return "hello my little jaba yulinka! \n this is you \n ";
-//    }
+
 
     @GetMapping
     public ResponseEntity<?> getAllUsers() {
